@@ -1,0 +1,7 @@
+aiohttp
+aiolimiter
+faster-whisper
+nltk
+numpy
+openai
+yt-dlp
