@@ -1,6 +1,12 @@
-# `libskibidi`: ed tech for the next generation of ML engineers
+# `libskibidi`: Two Minute Papers for Gen Alpha
 
-`libskibidi` automatically generates minecraft parkour videos with AI narration of the latest arXiv ML papers' abstracts superimposed.
+`libskibidi` is ed tech for the next generation of ML engineers. It automatically generates minecraft parkour videos with AI narration of the latest arXiv ML papers' abstracts superimposed. More specifically, it:
+
+- Fetches top N latest arXiv papers in a category
+- Narrates their abstracts with randomly-chosen OpenAI TTS voices
+- Chooses a random segment of a random "free to use" Minecraft parkour video long enough to fit the narration
+- Muxes the abstract text onto the video with FFmpeg
+- Uses a "novel" forced text alignment "implementation" based on Whisper to identify and highlight each word as it's spoken for maximum brainrot, while retaining obscure spellings and LaTeX present in the original abstract
 
 # Demo
 
